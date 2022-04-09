@@ -1,0 +1,6 @@
+build
+sources/poky
+sources/meta-xilinx
+sources/meta-xilinx-tools
+sources/meta-mingw
+sources/meta-openembedded

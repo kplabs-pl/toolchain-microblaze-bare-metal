@@ -1,0 +1,1 @@
+RDEPENDS_${PN}_append_sdkmingw32 = " nativesdk-libgcc "
