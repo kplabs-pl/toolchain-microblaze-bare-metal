@@ -1,1 +1,0 @@
-require conf/kp/standalone-tc.conf

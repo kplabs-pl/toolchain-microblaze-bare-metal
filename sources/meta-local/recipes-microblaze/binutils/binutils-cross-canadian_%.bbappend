@@ -1,5 +1,3 @@
-require conf/kp/standalone-tc.conf
-
 DEBUG_BUILD = "1"
 
 FILESEXTRAPATHS_append := ":${THISDIR}/binutils"
