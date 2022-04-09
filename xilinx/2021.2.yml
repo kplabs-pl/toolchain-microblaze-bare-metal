@@ -1,0 +1,34 @@
+header:
+  version: 11
+repos:
+  poky:
+    url: https://github.com/Xilinx/poky.git
+    refspec: 1a07bce883aa05bb2fcf412384c671ace7a6e23f
+    path: sources/poky
+    layers:
+      meta:
+      meta-poky:
+      meta-yocto-bsp:
+  meta-openembedded:
+    url: https://github.com/Xilinx/meta-openembedded.git
+    refspec: 29ca52c7826ad3044b53ccb5224016bd73abdb5c
+    path: sources/meta-openembedded
+    layers:
+      meta-oe:
+      meta-python:
+  meta-xilinx-tools:
+    url: https://github.com/Xilinx/meta-xilinx-tools.git
+    refspec: 9be31b43df41ec245f969c2fc65f56c6e910d752
+    path: sources/meta-xilinx-tools
+  meta-xilinx:
+    url: https://github.com/Xilinx/meta-xilinx.git
+    refspec: 054cb2cb4c3ffe868ade68369433027989571cf6
+    path: sources/meta-xilinx
+    layers:
+      meta-xilinx-bsp:
+      meta-xilinx-standalone:
+      meta-microblaze:
+  meta-mingw:
+    url: https://github.com/Xilinx/meta-mingw.git
+    path: sources/meta-mingw
+    refspec: 352d8b0aa3c7bbd5060a4cc2ebe7c0e964de4879  

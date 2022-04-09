@@ -1,4 +1,5 @@
 build
+.venv
 sources/poky
 sources/meta-xilinx
 sources/meta-xilinx-tools

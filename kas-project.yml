@@ -1,0 +1,15 @@
+header:
+  version: 11
+  includes:
+    - xilinx/2021.2.yml
+machine: microblaze-tc
+distro: xilinx-standalone-kp
+target: meta-toolchain
+local_conf_header:
+  meta-local: |
+    BBMASK += ".*aiefal.*\.bb"
+    SDK_ARCHIVE_TYPE = "zip"
+    SDKMACHINE = "x86_64-mingw32"
+repos:
+  meta-local:
+    path: sources/meta-local
