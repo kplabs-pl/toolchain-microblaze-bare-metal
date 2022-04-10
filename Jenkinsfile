@@ -9,6 +9,10 @@ pipeline {
                     deleteDir()
                 }
 
+                dir('build') {
+                    deleteDir()
+                }
+
                 sh("${env.PYTHON3_BIN} -m virtualenv -p ${env.PYTHON3_BIN} ./.venv")
                 withVenv('.venv') {
                     sh('pip install -r requirements.txt')

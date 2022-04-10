@@ -2,7 +2,7 @@ header:
   version: 11
   includes:
     - xilinx/2021.2.yml
-machine: microblaze-tc
+machine: microblaze-tc-kp
 distro: xilinx-standalone-kp
 target: meta-toolchain
 local_conf_header:
